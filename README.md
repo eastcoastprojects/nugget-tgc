@@ -1,5 +1,3 @@
-<p align="center"><img src="res/nugget-tgc-logo.png" width="128" height="128" alt="nugget-tgc logo"></p>
-
 # nugget-tgc: a Tiger Game.com emulator
 
 nugget-tgc is a standalone emulator for the Tiger Game.com (1997) that runs on Windows, Linux and macOS.
