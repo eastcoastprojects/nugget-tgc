@@ -301,7 +301,3 @@ Tested on the real firmware with 19 games: Lights Out, Sonic Jam, Tiger Casino, 
 ## Licence
 
 BSD-3-Clause. See `LICENSE`. Copyright of the original driver belongs to Wilbert Pol, Robbbert and the MAME team.
-
-## Dump problems
-
-A `.bin` that is larger than 2 MB, or that starts with repeated `EF BF BD` bytes, has been passed through a text-mode tool. Every byte of 0x80 or above has been replaced by the Unicode replacement character, and the file can't be repaired. Get a fresh copy of the original dump.
