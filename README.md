@@ -5,7 +5,7 @@ nugget-tgc is a standalone emulator for the Tiger Game.com (1997) that runs on W
 - **Core:** a C99 port of MAME's Game.com driver and Sharp SM8500 CPU core (BSD-3-Clause, by Wilbert Pol and Robbbert). It doesn't depend on SDL or any other library, so it can be reused in other frontends.
 - **Frontend:** SDL2. You get the same code and behaviour on every OS.
 
-Version 1.0.0. See [CHANGELOG.md](CHANGELOG.md) for the version history.
+Version 1.0.0.
 
 ## Hardware emulated
 
