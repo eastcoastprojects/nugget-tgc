@@ -294,9 +294,6 @@ Tested on the real firmware with 19 games: Lights Out, Sonic Jam, Tiger Casino, 
 - **Game speed comes from the timers, not the LCD refresh.** Sonic Jam and Tiger Casino run at the same speed at 30 Hz and 49 Hz. The refresh rate only decides how often the screen is shown.
 
 **Still open:**
-- **The exact LCD refresh rate.** nugget-tgc uses MAME's provisional formula (49 Hz at 4.9152 MHz); the datasheet formula suggests about 74 Hz. Game speed doesn't depend on it.
-- **Sonic Jam's TIME counter** now runs at about 1.18× real time (it was 2.4×). That may be the game itself. On real hardware, timing 0:00 → 1:00 would settle it: about 51 s means nugget-tgc is exact.
-- CPU cycle counts are MAME's educated guesses.
 - The two wavetable channels don't sound quite like the real thing. The SG2 noise channel is a guess; disable it with `--noise off`.
 - The CPU starting at 1/32 speed after reset (until the firmware's clock-switch STOP) isn't emulated. It only affects the first few milliseconds.
 - On the main menu, the A button highlights CARTRIDGE but doesn't launch the game. Tap it with the stylus: the mouse, or a controller's right stick plus RB.
