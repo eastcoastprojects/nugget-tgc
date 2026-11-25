@@ -301,3 +301,7 @@ Tested on the real firmware with 19 games: Lights Out, Sonic Jam, Tiger Casino, 
 ## Licence
 
 BSD-3-Clause. See `LICENSE`. Copyright of the original driver belongs to Wilbert Pol, Robbbert and the MAME team.
+
+## Disclaimer
+
+Development and assistance was provided by Claude.ai throughout the course of this project.
